@@ -1,0 +1,131 @@
+body 
+{
+    margin: 0;
+    height: 100vh;
+    background-image: url("Background.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Menu
+{
+    border-style: solid;
+    width: auto;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #422621;
+    padding: 1px;
+    cursor: pointer;
+    transition: color 0.3 ease;
+}
+.Menu a
+{
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #422621;
+    color: white;
+    font-size: 25px;
+}
+.Menu a:hover
+{
+    width: 33%;
+    height: 50px;
+    background-color: #754239;
+    color:yellow;
+    text-shadow: 0 0 10px yellow, 0 0 20px yellow, 0 0 30px orange;
+}
+.Menu.selected
+{
+    color:yellow;
+    text-shadow: 0 0 10px yellow, 0 0 20px yellow, 0 0 30px orange;
+}
+.Download
+{
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #b95400;
+    padding: 1px;
+    cursor: pointer;
+    transition: color 0.3 ease;
+    line-height: 100px;
+    text-align: center;
+}
+.Download a
+{
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #b95400;
+    color: white;
+    font-size: 25px;
+}
+.Download a:hover
+{
+    transform: none;
+    text-align: center;
+    width: 300px;
+    height: 100px;
+    background-color: #d15e00;
+    color:yellow;
+    text-shadow: 0 0 10px yellow, 0 0 20px yellow, 0 0 30px orange;
+}
+.Download.selected
+{
+    text-align: center;
+    color:yellow;
+    text-shadow: 0 0 10px yellow, 0 0 20px yellow, 0 0 30px orange;
+}
+.News
+{   
+    height: 80%;
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    color: white;
+    background-color: white;
+}
+.Community
+{
+    border-style: solid;
+    width: auto;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #422621;
+    padding: 1px;
+    cursor: pointer;
+    transition: color 0.3 ease;
+}
+.Community a
+{
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #422621;
+    color: white;
+    font-size: 25px;
+}
+.Community a:hover
+{
+    width: 33%;
+    height: 50px;
+    background-color: #754239;
+    color:yellow;
+    text-shadow: 0 0 10px yellow, 0 0 20px yellow, 0 0 30px orange;
+}
+.Community.selected
+{
+    color:yellow;
+    text-shadow: 0 0 10px yellow, 0 0 20px yellow, 0 0 30px orange;
+}
